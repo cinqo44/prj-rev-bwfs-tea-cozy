@@ -1,0 +1,148 @@
+body {
+
+	background-color: black;
+	color: seashell;
+	font-family: Helvetica;
+	font-size: 22px;
+	opacity: 0.9;
+	align-items: center;
+}
+
+a {
+	color: seashell;
+}
+
+header {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  z-index: 3;
+  width: 100%;
+  align-items: center;
+}
+
+
+footer {
+	height: 200px;
+	margin-left: 20px;
+	text-align : center;
+	line-height: all;
+
+}
+
+
+.logo img {
+	height: 50px;
+	margin-left: 10px;
+}
+
+
+
+.content {
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	width: 1200px;
+	height: 700px;
+	padding-top: 70px;
+	text-align: center;
+	background-image: url("../images/img-mission-background.jpg");
+	justify-content: center;
+	background-size: 100% 100%;
+	z-index: 2;
+}
+
+.mission
+ {
+ 	background-color: black;
+ 	z-index: 2;
+ }
+
+ .store {
+ 	margin: auto;
+ 	display: flex;
+ 	flex-direction: row;
+ 	flex-wrap: wrap;
+ 	align-content: space-around;
+ 	width: 1000px;
+ 	height: auto;
+ }
+
+.store h2, .store h4 {
+	text-align: center;
+	line-height: 30px;
+
+}
+
+
+ .tea {
+ 	height: auto;	
+ 	text-align: center;
+ 
+ }
+
+ .tea img {
+ 	height: 200px;
+ 	width:300px;
+ 	margin: 5px 10px 5px 10px;
+ }
+
+ .tea h4 {
+ 	margin-top:5px;
+ }
+
+ 
+.headlines {
+	text-align: center;
+	margin: 0 auto;
+}
+
+
+ .location {
+
+ 	margin: auto;
+ 	height: 500px;
+ 	width: 1200px;
+ 	background-image: url("../images/img-locations-background.jpg");
+ 	opacity: 1;
+ 	align-items: center;
+ }
+
+.location h2 {
+	padding-top: 50px;
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+
+
+.flex-container {
+	display: flex;
+	justify-content: space-around;
+ 	flex-direction: row;
+ 	flex-wrap: nowrap;
+
+}
+
+ .locationbox {
+ 	text-align: center;
+ 	width: 300px;
+ 	height: 300px;
+ 	margin: 0 20px 0 20px;
+ 	background-color: black;
+ 	z-index: 2;
+ 
+ }
+
+
+#copyright {
+ text-align: left;
+}
+
+#title {
+	margin: auto,0;
+	text-align: center;
+}
